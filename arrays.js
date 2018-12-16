@@ -19,15 +19,13 @@ function destructivelyAddElementToEndOfArray(chocolateBars, gummys) {
   chocolateBars.push(gummys);
   return chocolateBars;
 }
-/*
+
 function accessElementInArray(chocolateBars){
   return chocolateBars[2];
 }
 
-function addElementToBeginningOfArray(chocolateBars, candyString){
-  return [candyString, ...chocolateBars];
-}
-function destructivelyAddElementToEndOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
   
 }
-*/
